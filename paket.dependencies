@@ -10,3 +10,4 @@ nuget Akkling.Streams
 nuget FSharp.Data
 nuget FsHttp
 nuget Akkling.Streams.TestKit
+nuget TickSpec

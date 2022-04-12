@@ -125,6 +125,8 @@ NUGET
       System.Runtime (>= 4.3)
     System.Windows.Extensions (6.0)
       System.Drawing.Common (>= 6.0)
+    TickSpec (2.0.2)
+      FSharp.Core (>= 4.3.4)
     xunit (2.4.1)
       xunit.analyzers (>= 0.10)
       xunit.assert (2.4.1)

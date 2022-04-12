@@ -4,3 +4,4 @@ Akka.Serialization.Hyperion
 Akka.Streams
 Akkling
 Akkling.Streams
+TickSpec
