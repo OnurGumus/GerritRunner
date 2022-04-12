@@ -1,0 +1,7 @@
+FSharp.Core
+Akka.Serialization.Hyperion
+Akka.Streams
+Akkling
+Akkling.Streams
+FSharp.Data
+FsHttp

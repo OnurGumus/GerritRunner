@@ -1,0 +1,59 @@
+[
+    {
+      "id": "gerrit~master~I7ea46d2e2ee5c64c0d807677859cfb7d90b8966a",
+      "project": "gerrit",
+      "branch": "master",
+      "change_id": "I7ea46d2e2ee5c64c0d807677859cfb7d90b8966a",
+      "subject": "Use an EventBus to manage star icons",
+      "status": "NEW",
+      "created": "2012-04-25 00:52:25.580000000",
+      "updated": "2012-04-25 00:52:25.586000000",
+      "mergeable": true,
+      "insertions": 16,
+      "deletions": 7,
+      "_number": 97,
+      "owner": {
+        "name": "Shawn Pearce"
+      },
+      "current_revision": "184ebe53805e102605d11f6b143486d15c23a09c",
+      "revisions": {
+        "184ebe53805e102605d11f6b143486d15c23a09c": {
+          "kind": "REWORK",
+          "_number": 1,
+          "ref": "refs/changes/97/97/1",
+          "fetch": {
+            "git": {
+              "url": "git://localhost/gerrit",
+              "ref": "refs/changes/97/97/1",
+              "commands": {
+                "Checkout": "git fetch git://localhost/gerrit refs/changes/97/97/1 \u0026\u0026 git checkout FETCH_HEAD",
+                "Cherry-Pick": "git fetch git://localhost/gerrit refs/changes/97/97/1 \u0026\u0026 git cherry-pick FETCH_HEAD",
+                "Format-Patch": "git fetch git://localhost/gerrit refs/changes/97/97/1 \u0026\u0026 git format-patch -1 --stdout FETCH_HEAD",
+                "Pull": "git pull git://localhost/gerrit refs/changes/97/97/1"
+              }
+            },
+            "http": {
+              "url": "http://myuser@127.0.0.1:8080/gerrit",
+              "ref": "refs/changes/97/97/1",
+              "commands": {
+                "Checkout": "git fetch http://myuser@127.0.0.1:8080/gerrit refs/changes/97/97/1 \u0026\u0026 git checkout FETCH_HEAD",
+                "Cherry-Pick": "git fetch http://myuser@127.0.0.1:8080/gerrit refs/changes/97/97/1 \u0026\u0026 git cherry-pick FETCH_HEAD",
+                "Format-Patch": "git fetch http://myuser@127.0.0.1:8080/gerrit refs/changes/97/97/1 \u0026\u0026 git format-patch -1 --stdout FETCH_HEAD",
+                "Pull": "git pull http://myuser@127.0.0.1:8080/gerrit refs/changes/97/97/1"
+              }
+            },
+            "ssh": {
+              "url": "ssh://myuser@*:29418/gerrit",
+              "ref": "refs/changes/97/97/1",
+              "commands": {
+                "Checkout": "git fetch ssh://myuser@*:29418/gerrit refs/changes/97/97/1 \u0026\u0026 git checkout FETCH_HEAD",
+                "Cherry-Pick": "git fetch ssh://myuser@*:29418/gerrit refs/changes/97/97/1 \u0026\u0026 git cherry-pick FETCH_HEAD",
+                "Format-Patch": "git fetch ssh://myuser@*:29418/gerrit refs/changes/97/97/1 \u0026\u0026 git format-patch -1 --stdout FETCH_HEAD",
+                "Pull": "git pull ssh://myuser@*:29418/gerrit refs/changes/97/97/1"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]

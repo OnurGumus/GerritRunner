@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{B86F5E70-77DE-40EE-98EC-4A91FBCD9BCF}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4576D81F-1687-4875-AD9E-C247B4CECC52}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Server", "src\Server\Server.fsproj", "{4F46D747-3949-439F-82FF-C902F69DD286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AC9C3AD2-E38A-416B-921F-2E26A34602CA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BDD", "test\BDD\BDD.fsproj", "{31017390-0CD0-4AB4-858C-8E8C88BA4367}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F46D747-3949-439F-82FF-C902F69DD286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F46D747-3949-439F-82FF-C902F69DD286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F46D747-3949-439F-82FF-C902F69DD286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F46D747-3949-439F-82FF-C902F69DD286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31017390-0CD0-4AB4-858C-8E8C88BA4367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31017390-0CD0-4AB4-858C-8E8C88BA4367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31017390-0CD0-4AB4-858C-8E8C88BA4367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31017390-0CD0-4AB4-858C-8E8C88BA4367}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F46D747-3949-439F-82FF-C902F69DD286} = {4576D81F-1687-4875-AD9E-C247B4CECC52}
+		{31017390-0CD0-4AB4-858C-8E8C88BA4367} = {AC9C3AD2-E38A-416B-921F-2E26A34602CA}
+	EndGlobalSection
+EndGlobal

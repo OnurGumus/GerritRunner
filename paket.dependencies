@@ -1,0 +1,12 @@
+storage: none
+framework: auto-detect
+source https://api.nuget.org/v3/index.json
+
+nuget FSharp.Core content: none
+nuget Akka.Serialization.Hyperion
+nuget Akka.Streams
+nuget Akkling
+nuget Akkling.Streams
+nuget FSharp.Data
+nuget FsHttp
+nuget Akkling.Streams.TestKit
