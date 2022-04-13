@@ -11,3 +11,12 @@ nuget FSharp.Data
 nuget FsHttp
 nuget Akkling.Streams.TestKit
 nuget TickSpec
+nuget Expecto
+nuget YoloDev.Expecto.TestSdk
+nuget Microsoft.NET.Test.Sdk
+nuget altcover
+nuget Serilog.Sinks.Console
+nuget SeriLog
+nuget Destructurama.FSharp
+nuget Serilog.Formatting.Compact
+nuget Hocon.Extensions.Configuration

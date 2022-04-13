@@ -5,3 +5,12 @@ Akka.Streams
 Akkling
 Akkling.Streams
 TickSpec
+Expecto
+YoloDev.Expecto.TestSdk
+Microsoft.NET.Test.Sdk
+altcover
+Serilog.Sinks.Console
+SeriLog
+Destructurama.FSharp
+Serilog.Formatting.Compact
+Hocon.Extensions.Configuration
